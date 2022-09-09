@@ -51,10 +51,17 @@ namespace MVCDemo.Controllers
            
 
         }
-        public IActionResult Edit(int id)
+        public IActionResult Update(int id)
         {
-            Pizza p = PizzaService.Update(id);
+           
             return View();
+        }
+        [HttpPost]
+        public IActionResult Update(Pizza p)
+        {
+            PizzaService.Update(p.Id);
+            return RedirectToAction("Lists");
+
         }
 
 

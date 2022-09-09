@@ -2,9 +2,10 @@
 {
     public class Booking
     {
-        public string Title { get; internal set; }
-        public DateTime EventDate { get; internal set; }
-        public int Qty { get; internal set; }
+        public int id { get; set; }
+        public string EventTitle { get;  set; }
+        public DateTime EventDate { get;  set; }
+        public int Qty { get;  set; }
 
     }
 }

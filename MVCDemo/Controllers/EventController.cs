@@ -9,7 +9,8 @@ namespace MVCDemo.Controllers
         public IActionResult Index()
         {
             events = new List<Booking>();
-            events.Add(new Booking { Title = "ask CEO", EventDate = DateTime.Today, Qty = 10 });
+            events.Add(new Booking { EventTitle = "ask CEO", EventDate = DateTime.Today, Qty = 10 });
+            events.Add(new Booking { EventTitle = "ask CEO", EventDate = DateTime.Today, Qty = 10 });
             return View(events);
         }
     }
