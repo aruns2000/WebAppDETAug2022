@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using APIDemo1.Data;
 using APIDemo1.Models;
+using Microsoft.AspNetCore.OData.Query;
 
 namespace APIDemo1.Controllers
 {
@@ -23,6 +24,7 @@ namespace APIDemo1.Controllers
 
         // GET: api/TodoItems
         [HttpGet]
+        [EnableQuery]
         public async Task<ActionResult<IEnumerable<TodoItem>>> GetTodoItem()
         {
           if (_context.TodoItem == null)
