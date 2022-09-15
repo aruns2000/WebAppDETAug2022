@@ -21,8 +21,4 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\NewLibraryAPI\NewLibraryAPI.csproj" />
-  </ItemGroup>
-
 </Project>

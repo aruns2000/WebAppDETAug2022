@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APIDemo1", "APIDemo1\APIDem
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApiClient", "ConsoleApiClient\ConsoleApiClient.csproj", "{A873F1B9-FEF7-40AC-AEAD-D0674E62D75E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject_ClassLibPizza", "TestProject_ClassLibPizza\TestProject_ClassLibPizza.csproj", "{C9D893EF-38A3-4C8C-803A-F6F2C8E07076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestProject_ClassLibPizza", "TestProject_ClassLibPizza\TestProject_ClassLibPizza.csproj", "{C9D893EF-38A3-4C8C-803A-F6F2C8E07076}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TDDDemo", "TDDDemo\TDDDemo.csproj", "{5524F10F-93FA-41C2-85E9-1A402ADCB473}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewLibraryAPI", "NewLibraryAPI\NewLibraryAPI.csproj", "{2BEF858F-B03A-4CC2-8641-31B94BDBD151}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BooksControllerTest", "BooksControllerTest\BooksControllerTest.csproj", "{0199CDCA-3ADD-4455-94DA-17CDE8FF7C6E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +45,18 @@ Global
 		{C9D893EF-38A3-4C8C-803A-F6F2C8E07076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9D893EF-38A3-4C8C-803A-F6F2C8E07076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9D893EF-38A3-4C8C-803A-F6F2C8E07076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5524F10F-93FA-41C2-85E9-1A402ADCB473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5524F10F-93FA-41C2-85E9-1A402ADCB473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5524F10F-93FA-41C2-85E9-1A402ADCB473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5524F10F-93FA-41C2-85E9-1A402ADCB473}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BEF858F-B03A-4CC2-8641-31B94BDBD151}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BEF858F-B03A-4CC2-8641-31B94BDBD151}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BEF858F-B03A-4CC2-8641-31B94BDBD151}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BEF858F-B03A-4CC2-8641-31B94BDBD151}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0199CDCA-3ADD-4455-94DA-17CDE8FF7C6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0199CDCA-3ADD-4455-94DA-17CDE8FF7C6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0199CDCA-3ADD-4455-94DA-17CDE8FF7C6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0199CDCA-3ADD-4455-94DA-17CDE8FF7C6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
